@@ -196,7 +196,7 @@ export default function App() {
   const hiddenAudioId = useId();
   const [query, setQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<PhonemeCategory | "all">("all");
-  const [mobileIndexOpen, setMobileIndexOpen] = useState(false);
+  const [indexPanelOpen, setIndexPanelOpen] = useState(false);
   const deferredQuery = useDeferredValue(query.trim().toLowerCase());
   const audioElementRef = useRef<HTMLAudioElement | null>(null);
 
@@ -220,6 +220,11 @@ export default function App() {
 
   const { activeId, setActiveId } = useActivePhoneme(filteredPhonemes);
   const audio = useSingleAudio(audioElementRef);
+  const activeEntry =
+    filteredPhonemes.find((entry) => entry.id === activeId) ??
+    phonemes.find((entry) => entry.id === activeId) ??
+    filteredPhonemes[0] ??
+    phonemes[0];
 
   useEffect(() => {
     const handleHashJump = () => {
@@ -250,10 +255,12 @@ export default function App() {
   }, [activeId]);
 
   const openPhoneme = (id: string) => {
-    setMobileIndexOpen(false);
+    setIndexPanelOpen(false);
     setActiveId(id);
     scrollToPhoneme(id);
   };
+
+  const jumpDockOffsetClass = audio.activePath || audio.errorMessage ? "bottom-32 sm:bottom-4" : "bottom-4";
 
   return (
     <div className="grain relative overflow-x-hidden">
@@ -339,7 +346,7 @@ export default function App() {
         <div className="sticky top-3 z-30 mt-5 flex items-center gap-3 rounded-[26px] border border-[var(--line)] bg-[rgba(255,250,241,0.9)] px-4 py-3 shadow-[var(--shadow)] backdrop-blur lg:hidden">
           <button
             type="button"
-            onClick={() => setMobileIndexOpen(true)}
+            onClick={() => setIndexPanelOpen(true)}
             className="inline-flex shrink-0 items-center gap-2 rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white"
           >
             <FaBarsStaggered />
@@ -357,7 +364,7 @@ export default function App() {
 
         <section className="mt-6 grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)] lg:items-start">
           <aside className="hidden lg:block">
-            <div className="sticky top-4">
+            <div className="sticky top-4 max-h-[calc(100vh-2rem)]">
               <QuickIndex
                 entries={filteredPhonemes}
                 activeId={activeId}
@@ -482,9 +489,9 @@ export default function App() {
         </section>
       </div>
 
-      {mobileIndexOpen ? (
-        <div className="fixed inset-0 z-50 bg-[rgba(31,28,23,0.44)] backdrop-blur-sm lg:hidden">
-          <div className="absolute inset-x-3 top-3 bottom-3 overflow-hidden rounded-[30px] border border-white/30 bg-[var(--bg-soft)] shadow-[var(--shadow)]">
+      {indexPanelOpen ? (
+        <div className="fixed inset-0 z-50 bg-[rgba(31,28,23,0.44)] backdrop-blur-sm">
+          <div className="absolute inset-x-3 top-3 bottom-3 overflow-hidden rounded-[30px] border border-white/30 bg-[var(--bg-soft)] shadow-[var(--shadow)] lg:bottom-4 lg:left-auto lg:right-4 lg:top-4 lg:w-[430px]">
             <div className="flex items-center justify-between border-b border-[var(--line)] px-5 py-4">
               <div>
                 <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
@@ -494,7 +501,7 @@ export default function App() {
               </div>
               <button
                 type="button"
-                onClick={() => setMobileIndexOpen(false)}
+                onClick={() => setIndexPanelOpen(false)}
                 className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--line)] bg-white/80 text-[var(--ink)]"
               >
                 <FaXmark />
@@ -511,6 +518,24 @@ export default function App() {
           </div>
         </div>
       ) : null}
+
+      <button
+        type="button"
+        onClick={() => setIndexPanelOpen(true)}
+        className={`fixed left-4 z-30 inline-flex items-center gap-3 rounded-full border border-[rgba(31,28,23,0.08)] bg-[rgba(255,250,241,0.94)] px-3 py-2 text-left shadow-[var(--shadow)] backdrop-blur transition hover:translate-y-[-1px] ${jumpDockOffsetClass}`}
+      >
+        <span className="display-serif inline-flex h-11 min-w-11 items-center justify-center rounded-full bg-[var(--ink)] px-3 text-2xl text-white">
+          {activeEntry?.symbol ?? "/?/"}
+        </span>
+        <span className="min-w-0">
+          <span className="block text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
+            IPA Dock
+          </span>
+          <span className="block text-sm font-semibold text-[var(--ink)]">
+            Mở bảng nhảy nhanh
+          </span>
+        </span>
+      </button>
 
       <button
         type="button"

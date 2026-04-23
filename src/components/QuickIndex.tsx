@@ -15,7 +15,7 @@ export default function QuickIndex({
   selectedCategory,
 }: QuickIndexProps) {
   return (
-    <div className="glass rounded-[28px] border border-[var(--line)] p-4">
+    <div className="glass flex h-full min-h-0 flex-col rounded-[28px] border border-[var(--line)] p-4">
       <div>
         <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)]">
           Chỉ mục dính
@@ -33,7 +33,7 @@ export default function QuickIndex({
         </strong>
       </div>
 
-      <div className="mt-4 space-y-4">
+      <div className="mt-4 min-h-0 flex-1 space-y-4 overflow-y-auto pr-1">
         {categoryOrder.map((category) => {
           const group = entries.filter((entry) => entry.category === category);
           if (!group.length) {

@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f6efe3;
+  --bg-soft: #fff9f0;
+  --surface: rgba(255, 250, 241, 0.84);
+  --surface-strong: rgba(255, 247, 235, 0.96);
+  --ink: #1f1c17;
+  --ink-soft: #5d5246;
+  --line: rgba(131, 98, 63, 0.18);
+  --accent: #c65c3b;
+  --accent-strong: #9d4026;
+  --accent-muted: rgba(198, 92, 59, 0.14);
+  --gold: #d3a444;
+  --teal: #1f6f78;
+  --rose: #b6516d;
+  --shadow: 0 20px 60px rgba(110, 76, 40, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(211, 164, 68, 0.28), transparent 24%),
+    radial-gradient(circle at top right, rgba(182, 81, 109, 0.16), transparent 28%),
+    linear-gradient(180deg, #fdf7ef 0%, #f6efe3 52%, #f0e4d4 100%);
+  color: var(--ink);
+  font-family: "Bahnschrift", "Trebuchet MS", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.display-serif {
+  font-family: "Georgia", "Palatino Linotype", serif;
+}
+
+.glass {
+  background: var(--surface);
+  backdrop-filter: blur(16px);
+  box-shadow: var(--shadow);
+}
+
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  background-image:
+    linear-gradient(transparent 0, rgba(0, 0, 0, 0.04) 50%, transparent 100%),
+    radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.28) 1px, transparent 0);
+  background-size: 100% 100%, 18px 18px;
+}
+
+.section-ring {
+  position: relative;
+}
+
+.section-ring::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 28px;
+  pointer-events: none;
+  border: 1px solid rgba(198, 92, 59, 0.18);
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise-in {
+  animation: riseIn 0.55s ease both;
+}

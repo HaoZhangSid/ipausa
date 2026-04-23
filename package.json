@@ -1,0 +1,27 @@
+{
+  "name": "ipa-american-teaching-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "validate": "node ./scripts/validate-content.mjs",
+    "build": "pnpm validate && vite build",
+    "preview": "vite preview",
+    "generate:audio": "python ./scripts/generate_audio.py"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.10"
+  }
+}

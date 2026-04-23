@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "i",
+    "symbol": "/i/",
+    "category": "monophthong",
+    "keyword": "sheep",
+    "overviewVi": "Đây là nguyên âm trước, cao và căng. Âm kéo dài nhẹ, sáng và rõ như trong từ “sheep”.",
+    "articulation": {
+      "lips": "Môi hơi kéo ngang, không tròn.",
+      "tongue": "Đầu lưỡi hạ thấp, thân lưỡi nâng cao về phía trước.",
+      "jaw": "Hàm mở rất ít.",
+      "airflow": "Luồng hơi đi ra đều, không bị chặn.",
+      "voicing": "Hữu thanh, dây thanh rung liên tục."
+    },
+    "commonMistakeVi": "Người học thường đọc quá ngắn và biến âm này thành /ɪ/. Hãy giữ âm sáng và dài hơn một chút.",
+    "phonemeAudio": {
+      "text": "eeee",
+      "prompt": "Produce only the American English vowel sound /i/ as a clean isolated teaching cue. Keep it slightly sustained. Do not say any word or letter name.",
+      "path": "audio/phonemes/i.mp3"
+    },
+    "examples": [
+      { "word": "sheep", "ipa": "/ʃip/", "meaningVi": "con cừu", "iconKey": "sheep", "audioPath": "audio/words/i/sheep.mp3" },
+      { "word": "leaf", "ipa": "/lif/", "meaningVi": "lá cây", "iconKey": "leaf", "audioPath": "audio/words/i/leaf.mp3" },
+      { "word": "seat", "ipa": "/sit/", "meaningVi": "ghế ngồi", "iconKey": "seat", "audioPath": "audio/words/i/seat.mp3" },
+      { "word": "teacher", "ipa": "/ˈtitʃɚ/", "meaningVi": "giáo viên", "iconKey": "teacher", "audioPath": "audio/words/i/teacher.mp3" }
+    ]
+  },
+  {
+    "id": "ih",
+    "symbol": "/ɪ/",
+    "category": "monophthong",
+    "keyword": "fish",
+    "overviewVi": "Đây là nguyên âm ngắn, lỏng hơn /i/. Âm phát rất nhanh như trong “fish” hay “ship”.",
+    "articulation": {
+      "lips": "Môi thả lỏng, hơi kéo ngang nhẹ.",
+      "tongue": "Thân lưỡi nâng lên phía trước nhưng thấp hơn /i/.",
+      "jaw": "Hàm mở hơi nhiều hơn /i/.",
+      "airflow": "Hơi ra tự nhiên, ngắn và gọn.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu kéo dài quá mức, âm này sẽ nghe giống /i/. Hãy giữ âm ngắn và mềm hơn.",
+    "phonemeAudio": {
+      "text": "ih",
+      "prompt": "Produce only the American English vowel sound /ɪ/ as a short isolated cue. Keep it relaxed and brief. Do not say any word or letter name.",
+      "path": "audio/phonemes/ih.mp3"
+    },
+    "examples": [
+      { "word": "fish", "ipa": "/fɪʃ/", "meaningVi": "con cá", "iconKey": "fish", "audioPath": "audio/words/ih/fish.mp3" },
+      { "word": "milk", "ipa": "/mɪlk/", "meaningVi": "sữa", "iconKey": "milk", "audioPath": "audio/words/ih/milk.mp3" },
+      { "word": "ship", "ipa": "/ʃɪp/", "meaningVi": "con tàu", "iconKey": "ship", "audioPath": "audio/words/ih/ship.mp3" },
+      { "word": "chicken", "ipa": "/ˈtʃɪkən/", "meaningVi": "gà", "iconKey": "chicken", "audioPath": "audio/words/ih/chicken.mp3" }
+    ]
+  },
+  {
+    "id": "eh",
+    "symbol": "/ɛ/",
+    "category": "monophthong",
+    "keyword": "bed",
+    "overviewVi": "Âm /ɛ/ là nguyên âm trước trung bình. Miệng mở vừa phải và âm nghe rõ như trong “bed”.",
+    "articulation": {
+      "lips": "Môi thả lỏng, không tròn.",
+      "tongue": "Lưỡi ở phía trước, thấp hơn /ɪ/.",
+      "jaw": "Hàm mở vừa.",
+      "airflow": "Hơi thoát ra đều.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nhiều người đọc /ɛ/ thành /e/ hoặc /æ/. Hãy giữ miệng mở vừa, không kéo âm lên quá cao.",
+    "phonemeAudio": {
+      "text": "eh",
+      "prompt": "Produce only the American English vowel sound /ɛ/ as a short isolated teaching cue. Keep it clean and natural. Do not say a word or letter name.",
+      "path": "audio/phonemes/eh.mp3"
+    },
+    "examples": [
+      { "word": "bed", "ipa": "/bɛd/", "meaningVi": "cái giường", "iconKey": "bed", "audioPath": "audio/words/eh/bed.mp3" },
+      { "word": "pen", "ipa": "/pɛn/", "meaningVi": "cây bút", "iconKey": "pen", "audioPath": "audio/words/eh/pen.mp3" },
+      { "word": "bell", "ipa": "/bɛl/", "meaningVi": "cái chuông", "iconKey": "bell", "audioPath": "audio/words/eh/bell.mp3" },
+      { "word": "dress", "ipa": "/drɛs/", "meaningVi": "váy đầm", "iconKey": "dress", "audioPath": "audio/words/eh/dress.mp3" }
+    ]
+  },
+  {
+    "id": "ae",
+    "symbol": "/æ/",
+    "category": "monophthong",
+    "keyword": "apple",
+    "overviewVi": "Âm /æ/ là nguyên âm trước thấp, rất mở và rõ trong giọng Mỹ. Hãy nghe như âm trong “apple” hoặc “cat”.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên, không tròn.",
+      "tongue": "Lưỡi nằm thấp và tiến ra trước.",
+      "jaw": "Hàm mở khá rộng.",
+      "airflow": "Hơi đi ra trơn tru.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Người học thường đọc /æ/ quá hẹp thành /ɛ/. Hãy hạ hàm xuống rõ hơn.",
+    "phonemeAudio": {
+      "text": "aeh",
+      "prompt": "Produce only the American English vowel sound /æ/ as an isolated cue. Keep the mouth-open quality obvious. Do not say any word or letter name.",
+      "path": "audio/phonemes/ae.mp3"
+    },
+    "examples": [
+      { "word": "apple", "ipa": "/ˈæpəl/", "meaningVi": "quả táo", "iconKey": "apple", "audioPath": "audio/words/ae/apple.mp3" },
+      { "word": "cat", "ipa": "/kæt/", "meaningVi": "con mèo", "iconKey": "cat", "audioPath": "audio/words/ae/cat.mp3" },
+      { "word": "bag", "ipa": "/bæɡ/", "meaningVi": "cái túi", "iconKey": "bag", "audioPath": "audio/words/ae/bag.mp3" },
+      { "word": "hand", "ipa": "/hænd/", "meaningVi": "bàn tay", "iconKey": "hand", "audioPath": "audio/words/ae/hand.mp3" }
+    ]
+  },
+  {
+    "id": "ah",
+    "symbol": "/ɑ/",
+    "category": "monophthong",
+    "keyword": "car",
+    "overviewVi": "Âm /ɑ/ là nguyên âm sau thấp, miệng mở rộng và không tròn môi. Đây là âm quen thuộc trong “car” và “box”.",
+    "articulation": {
+      "lips": "Môi mở thoải mái, không tròn.",
+      "tongue": "Lưỡi lùi về sau và hạ thấp.",
+      "jaw": "Hàm mở rộng.",
+      "airflow": "Luồng hơi đều và thoải mái.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nhiều người kéo môi tròn khiến âm lệch về /ɔ/. Hãy mở hàm lớn nhưng giữ môi không tròn.",
+    "phonemeAudio": {
+      "text": "ahh",
+      "prompt": "Produce only the American English vowel sound /ɑ/ as a clean isolated cue. Keep it open and back. Do not say any word or letter name.",
+      "path": "audio/phonemes/ah.mp3"
+    },
+    "examples": [
+      { "word": "car", "ipa": "/kɑr/", "meaningVi": "ô tô", "iconKey": "car", "audioPath": "audio/words/ah/car.mp3" },
+      { "word": "box", "ipa": "/bɑks/", "meaningVi": "cái hộp", "iconKey": "box", "audioPath": "audio/words/ah/box.mp3" },
+      { "word": "star", "ipa": "/stɑr/", "meaningVi": "ngôi sao", "iconKey": "star", "audioPath": "audio/words/ah/star.mp3" },
+      { "word": "clock", "ipa": "/klɑk/", "meaningVi": "đồng hồ", "iconKey": "clock", "audioPath": "audio/words/ah/clock.mp3" }
+    ]
+  },
+  {
+    "id": "aw",
+    "symbol": "/ɔ/",
+    "category": "monophthong",
+    "keyword": "dog",
+    "overviewVi": "Âm /ɔ/ là nguyên âm sau trung thấp, môi tròn nhẹ. Trong nhiều giọng Mỹ, âm này nghe như trong “dog”, “ball”.",
+    "articulation": {
+      "lips": "Môi tròn nhẹ.",
+      "tongue": "Lưỡi lùi về sau, không quá thấp như /ɑ/.",
+      "jaw": "Hàm mở vừa đến khá.",
+      "airflow": "Hơi đều, âm vang ở khoang miệng sau.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu không tròn môi nhẹ, âm sẽ dễ rơi về /ɑ/. Hãy giữ chất tròn và sâu hơn một chút.",
+    "phonemeAudio": {
+      "text": "aww",
+      "prompt": "Produce only the American English vowel sound /ɔ/ as an isolated cue. Keep it rounded slightly and back. Do not say any word or letter name.",
+      "path": "audio/phonemes/aw.mp3"
+    },
+    "examples": [
+      { "word": "dog", "ipa": "/dɔɡ/", "meaningVi": "con chó", "iconKey": "dog", "audioPath": "audio/words/aw/dog.mp3" },
+      { "word": "ball", "ipa": "/bɔl/", "meaningVi": "quả bóng", "iconKey": "ball", "audioPath": "audio/words/aw/ball.mp3" },
+      { "word": "horse", "ipa": "/hɔrs/", "meaningVi": "con ngựa", "iconKey": "horse", "audioPath": "audio/words/aw/horse.mp3" },
+      { "word": "fork", "ipa": "/fɔrk/", "meaningVi": "cái nĩa", "iconKey": "fork", "audioPath": "audio/words/aw/fork.mp3" }
+    ]
+  },
+  {
+    "id": "uh-short",
+    "symbol": "/ʊ/",
+    "category": "monophthong",
+    "keyword": "book",
+    "overviewVi": "Âm /ʊ/ là nguyên âm sau gần cao, ngắn và lỏng. Nó xuất hiện trong “book”, “foot”.",
+    "articulation": {
+      "lips": "Môi tròn nhẹ, không siết chặt.",
+      "tongue": "Lưỡi hơi nâng về phía sau.",
+      "jaw": "Hàm mở ít.",
+      "airflow": "Hơi ngắn và gọn.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng kéo dài thành /u/. Âm /ʊ/ phải ngắn hơn và thư giãn hơn.",
+    "phonemeAudio": {
+      "text": "uuh",
+      "prompt": "Produce only the American English vowel sound /ʊ/ as a short isolated cue. Keep it relaxed and brief. Do not say any word or letter name.",
+      "path": "audio/phonemes/uh-short.mp3"
+    },
+    "examples": [
+      { "word": "book", "ipa": "/bʊk/", "meaningVi": "quyển sách", "iconKey": "book", "audioPath": "audio/words/uh-short/book.mp3" },
+      { "word": "foot", "ipa": "/fʊt/", "meaningVi": "bàn chân", "iconKey": "foot", "audioPath": "audio/words/uh-short/foot.mp3" },
+      { "word": "cook", "ipa": "/kʊk/", "meaningVi": "đầu bếp", "iconKey": "cook", "audioPath": "audio/words/uh-short/cook.mp3" },
+      { "word": "cookie", "ipa": "/ˈkʊki/", "meaningVi": "bánh quy", "iconKey": "cookie", "audioPath": "audio/words/uh-short/cookie.mp3" }
+    ]
+  },
+  {
+    "id": "oo",
+    "symbol": "/u/",
+    "category": "monophthong",
+    "keyword": "moon",
+    "overviewVi": "Âm /u/ là nguyên âm sau cao, môi tròn rõ và âm kéo dài hơn /ʊ/. Hãy nghe như trong “moon”, “juice”.",
+    "articulation": {
+      "lips": "Môi tròn rõ hơn /ʊ/ và hơi đẩy ra trước.",
+      "tongue": "Thân lưỡi nâng cao về phía sau.",
+      "jaw": "Hàm mở rất ít.",
+      "airflow": "Hơi đều và hơi dài.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng làm âm quá ngắn. /u/ cần rõ độ tròn môi và độ dài hơn /ʊ/.",
+    "phonemeAudio": {
+      "text": "oooo",
+      "prompt": "Produce only the American English vowel sound /u/ as a clean isolated cue. Keep it rounded and slightly sustained. Do not say any word or letter name.",
+      "path": "audio/phonemes/oo.mp3"
+    },
+    "examples": [
+      { "word": "moon", "ipa": "/mun/", "meaningVi": "mặt trăng", "iconKey": "moon", "audioPath": "audio/words/oo/moon.mp3" },
+      { "word": "spoon", "ipa": "/spun/", "meaningVi": "cái thìa", "iconKey": "spoon", "audioPath": "audio/words/oo/spoon.mp3" },
+      { "word": "boot", "ipa": "/but/", "meaningVi": "ủng", "iconKey": "boot", "audioPath": "audio/words/oo/boot.mp3" },
+      { "word": "juice", "ipa": "/dʒus/", "meaningVi": "nước ép", "iconKey": "juice", "audioPath": "audio/words/oo/juice.mp3" }
+    ]
+  },
+  {
+    "id": "uh",
+    "symbol": "/ʌ/",
+    "category": "monophthong",
+    "keyword": "sun",
+    "overviewVi": "Âm /ʌ/ là nguyên âm giữa thấp, khá trung tâm và rất quen thuộc trong “sun”, “cup”.",
+    "articulation": {
+      "lips": "Môi thả lỏng, không tròn.",
+      "tongue": "Lưỡi ở vị trí giữa miệng, thấp vừa.",
+      "jaw": "Hàm mở vừa.",
+      "airflow": "Hơi ra đều, âm ngắn.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Người học hay đọc âm này thành /a/ hoặc /ɔ/. Hãy giữ lưỡi ở giữa miệng, không đẩy quá trước hay quá sau.",
+    "phonemeAudio": {
+      "text": "uh",
+      "prompt": "Produce only the American English vowel sound /ʌ/ as a short isolated cue. Keep it central and natural. Do not say any word or letter name.",
+      "path": "audio/phonemes/uh.mp3"
+    },
+    "examples": [
+      { "word": "sun", "ipa": "/sʌn/", "meaningVi": "mặt trời", "iconKey": "sun", "audioPath": "audio/words/uh/sun.mp3" },
+      { "word": "cup", "ipa": "/kʌp/", "meaningVi": "cái cốc", "iconKey": "cup", "audioPath": "audio/words/uh/cup.mp3" },
+      { "word": "bus", "ipa": "/bʌs/", "meaningVi": "xe buýt", "iconKey": "bus", "audioPath": "audio/words/uh/bus.mp3" },
+      { "word": "duck", "ipa": "/dʌk/", "meaningVi": "con vịt", "iconKey": "duck", "audioPath": "audio/words/uh/duck.mp3" }
+    ]
+  },
+  {
+    "id": "schwa",
+    "symbol": "/ə/",
+    "category": "monophthong",
+    "keyword": "sofa",
+    "overviewVi": "Âm /ə/ là âm schwa rất quan trọng trong tiếng Anh Mỹ. Đây là âm rất nhẹ, ngắn và thường rơi vào âm tiết không nhấn.",
+    "articulation": {
+      "lips": "Môi hoàn toàn thư giãn.",
+      "tongue": "Lưỡi ở vị trí trung tâm, không nâng quá cao hay quá thấp.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi ra nhẹ, âm ngắn và mờ.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc schwa quá rõ như một nguyên âm đầy đủ. Âm này phải nhẹ và nhanh.",
+    "phonemeAudio": {
+      "text": "uh",
+      "prompt": "Produce only the unstressed American English schwa sound /ə/ as a very light isolated cue. Keep it short and neutral. Do not say any word or letter name.",
+      "path": "audio/phonemes/schwa.mp3"
+    },
+    "examples": [
+      { "word": "sofa", "ipa": "/ˈsoʊfə/", "meaningVi": "ghế sofa", "iconKey": "sofa", "audioPath": "audio/words/schwa/sofa.mp3" },
+      { "word": "banana", "ipa": "/bəˈnænə/", "meaningVi": "quả chuối", "iconKey": "banana", "audioPath": "audio/words/schwa/banana.mp3" },
+      { "word": "panda", "ipa": "/ˈpændə/", "meaningVi": "gấu trúc", "iconKey": "panda", "audioPath": "audio/words/schwa/panda.mp3" },
+      { "word": "salad", "ipa": "/ˈsæləd/", "meaningVi": "món salad", "iconKey": "salad", "audioPath": "audio/words/schwa/salad.mp3" }
+    ]
+  },
+  {
+    "id": "er-weak",
+    "symbol": "/ɚ/",
+    "category": "r_colored",
+    "keyword": "teacher",
+    "overviewVi": "Âm /ɚ/ là nguyên âm có màu /r/ trong âm tiết không nhấn. Nó rất phổ biến ở cuối từ như “teacher”, “water”.",
+    "articulation": {
+      "lips": "Môi hơi tròn hoặc hơi kéo ngang, tùy người nói.",
+      "tongue": "Đầu hoặc thân lưỡi cong nhẹ về phía sau để tạo màu /r/.",
+      "jaw": "Hàm mở ít.",
+      "airflow": "Hơi ra đều, âm ngắn hơn /ɝ/.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Người học thường tách thành hai âm /ə/ + /r/. Trong giọng Mỹ, hãy gộp thành một âm liền mạch.",
+    "phonemeAudio": {
+      "text": "er",
+      "prompt": "Produce only the American English r-colored vowel sound /ɚ/ as an isolated cue. Keep it light and unstressed. Do not say any word or letter name.",
+      "path": "audio/phonemes/er-weak.mp3"
+    },
+    "examples": [
+      { "word": "teacher", "ipa": "/ˈtitʃɚ/", "meaningVi": "giáo viên", "iconKey": "teacher", "audioPath": "audio/words/er-weak/teacher.mp3" },
+      { "word": "doctor", "ipa": "/ˈdɑktɚ/", "meaningVi": "bác sĩ", "iconKey": "doctor", "audioPath": "audio/words/er-weak/doctor.mp3" },
+      { "word": "mother", "ipa": "/ˈmʌðɚ/", "meaningVi": "mẹ", "iconKey": "mother", "audioPath": "audio/words/er-weak/mother.mp3" },
+      { "word": "water", "ipa": "/ˈwɔtɚ/", "meaningVi": "nước", "iconKey": "water", "audioPath": "audio/words/er-weak/water.mp3" }
+    ]
+  },
+  {
+    "id": "er-strong",
+    "symbol": "/ɝ/",
+    "category": "r_colored",
+    "keyword": "bird",
+    "overviewVi": "Âm /ɝ/ là nguyên âm có màu /r/ trong âm tiết nhấn. Âm nghe đầy và mạnh hơn /ɚ/, như trong “bird” hay “nurse”.",
+    "articulation": {
+      "lips": "Môi hơi tròn hoặc hơi kéo ngang.",
+      "tongue": "Lưỡi cong nhẹ hoặc co thân lưỡi về phía sau để tạo /r/ coloring.",
+      "jaw": "Hàm mở ít đến vừa.",
+      "airflow": "Hơi đều và ổn định.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc thành /ơ/ rồi thêm /r/ riêng. Hãy nghe đây là một nguyên âm duy nhất có màu /r/.",
+    "phonemeAudio": {
+      "text": "errr",
+      "prompt": "Produce only the stressed American English r-colored vowel sound /ɝ/ as an isolated cue. Keep it steady. Do not say any word or letter name.",
+      "path": "audio/phonemes/er-strong.mp3"
+    },
+    "examples": [
+      { "word": "bird", "ipa": "/bɝd/", "meaningVi": "con chim", "iconKey": "bird", "audioPath": "audio/words/er-strong/bird.mp3" },
+      { "word": "nurse", "ipa": "/nɝs/", "meaningVi": "y tá", "iconKey": "nurse", "audioPath": "audio/words/er-strong/nurse.mp3" },
+      { "word": "shirt", "ipa": "/ʃɝt/", "meaningVi": "áo sơ mi", "iconKey": "shirt", "audioPath": "audio/words/er-strong/shirt.mp3" },
+      { "word": "purse", "ipa": "/pɝs/", "meaningVi": "ví cầm tay", "iconKey": "purse", "audioPath": "audio/words/er-strong/purse.mp3" }
+    ]
+  },
+  {
+    "id": "ay",
+    "symbol": "/eɪ/",
+    "category": "diphthong",
+    "keyword": "cake",
+    "overviewVi": "Âm /eɪ/ là nguyên âm đôi đi từ vị trí giữa trước lên cao hơn. Bạn sẽ nghe rõ trong “cake”, “train”.",
+    "articulation": {
+      "lips": "Môi hơi kéo ngang, gần như không tròn.",
+      "tongue": "Lưỡi bắt đầu ở vị trí giữa trước rồi trượt lên cao hơn.",
+      "jaw": "Hàm mở vừa lúc bắt đầu rồi khép nhẹ dần.",
+      "airflow": "Hơi liên tục trong suốt quá trình trượt âm.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc thành một âm đơn /e/. Cần có chuyển động trượt nhẹ ở cuối âm.",
+    "phonemeAudio": {
+      "text": "ay",
+      "prompt": "Produce only the American English diphthong /eɪ/ as an isolated cue. Make the glide clear. Do not say any word or letter name.",
+      "path": "audio/phonemes/ay.mp3"
+    },
+    "examples": [
+      { "word": "cake", "ipa": "/keɪk/", "meaningVi": "bánh ngọt", "iconKey": "cake", "audioPath": "audio/words/ay/cake.mp3" },
+      { "word": "train", "ipa": "/treɪn/", "meaningVi": "tàu hỏa", "iconKey": "train", "audioPath": "audio/words/ay/train.mp3" },
+      { "word": "plane", "ipa": "/pleɪn/", "meaningVi": "máy bay", "iconKey": "plane", "audioPath": "audio/words/ay/plane.mp3" },
+      { "word": "snake", "ipa": "/sneɪk/", "meaningVi": "con rắn", "iconKey": "snake", "audioPath": "audio/words/ay/snake.mp3" }
+    ]
+  },
+  {
+    "id": "eye",
+    "symbol": "/aɪ/",
+    "category": "diphthong",
+    "keyword": "eye",
+    "overviewVi": "Âm /aɪ/ là nguyên âm đôi mở đầu thấp rồi trượt lên cao. Đây là âm trong “eye”, “bike”, “light”.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên rồi hơi kéo ngang ở cuối.",
+      "tongue": "Lưỡi bắt đầu thấp hơn rồi nâng lên phía trước.",
+      "jaw": "Hàm mở khá rộng lúc đầu rồi khép bớt.",
+      "airflow": "Hơi đi ra liền mạch trong suốt âm đôi.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu chỉ đọc /a/, âm sẽ bị cụt. Hãy nhớ trượt rõ lên phần cuối /ɪ/.",
+    "phonemeAudio": {
+      "text": "eye",
+      "prompt": "Produce only the American English diphthong /aɪ/ as an isolated cue. Keep the glide clear. Do not say any word or letter name.",
+      "path": "audio/phonemes/eye.mp3"
+    },
+    "examples": [
+      { "word": "eye", "ipa": "/aɪ/", "meaningVi": "con mắt", "iconKey": "eye", "audioPath": "audio/words/eye/eye.mp3" },
+      { "word": "bike", "ipa": "/baɪk/", "meaningVi": "xe đạp", "iconKey": "bike", "audioPath": "audio/words/eye/bike.mp3" },
+      { "word": "kite", "ipa": "/kaɪt/", "meaningVi": "con diều", "iconKey": "kite", "audioPath": "audio/words/eye/kite.mp3" },
+      { "word": "light", "ipa": "/laɪt/", "meaningVi": "đèn", "iconKey": "light", "audioPath": "audio/words/eye/light.mp3" }
+    ]
+  },
+  {
+    "id": "oy",
+    "symbol": "/ɔɪ/",
+    "category": "diphthong",
+    "keyword": "coin",
+    "overviewVi": "Âm /ɔɪ/ bắt đầu từ vị trí sau có chút tròn môi rồi trượt lên /ɪ/. Hãy nghe trong “coin”, “boy”.",
+    "articulation": {
+      "lips": "Môi hơi tròn ở đầu âm rồi thả ra.",
+      "tongue": "Lưỡi đi từ vị trí sau-trung đến trước-cao hơn.",
+      "jaw": "Hàm mở vừa rồi khép dần.",
+      "airflow": "Hơi liền mạch.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc thành /oi/ bằng hai âm tách rời. Phần trượt phải liền và mượt.",
+    "phonemeAudio": {
+      "text": "oy",
+      "prompt": "Produce only the American English diphthong /ɔɪ/ as an isolated cue. Make the glide obvious. Do not say any word or letter name.",
+      "path": "audio/phonemes/oy.mp3"
+    },
+    "examples": [
+      { "word": "coin", "ipa": "/kɔɪn/", "meaningVi": "đồng xu", "iconKey": "coin", "audioPath": "audio/words/oy/coin.mp3" },
+      { "word": "toy", "ipa": "/tɔɪ/", "meaningVi": "đồ chơi", "iconKey": "toy", "audioPath": "audio/words/oy/toy.mp3" },
+      { "word": "boy", "ipa": "/bɔɪ/", "meaningVi": "cậu bé", "iconKey": "boy", "audioPath": "audio/words/oy/boy.mp3" },
+      { "word": "oil", "ipa": "/ɔɪl/", "meaningVi": "dầu", "iconKey": "oil", "audioPath": "audio/words/oy/oil.mp3" }
+    ]
+  },
+  {
+    "id": "ow",
+    "symbol": "/aʊ/",
+    "category": "diphthong",
+    "keyword": "house",
+    "overviewVi": "Âm /aʊ/ bắt đầu mở rộng rồi trượt về phía sau với môi tròn nhẹ hơn. Đây là âm trong “house”, “cloud”.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên rồi tròn nhẹ ở cuối.",
+      "tongue": "Lưỡi đi từ thấp-trung ra phía sau cao hơn.",
+      "jaw": "Hàm mở lớn ở đầu rồi khép dần.",
+      "airflow": "Hơi liên tục.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nhiều người chỉ đọc /a/ mà quên phần trượt cuối. Hãy nghe rõ sự chuyển động về phía /ʊ/.",
+    "phonemeAudio": {
+      "text": "ow",
+      "prompt": "Produce only the American English diphthong /aʊ/ as an isolated cue. Make the glide smooth and clear. Do not say any word or letter name.",
+      "path": "audio/phonemes/ow.mp3"
+    },
+    "examples": [
+      { "word": "house", "ipa": "/haʊs/", "meaningVi": "ngôi nhà", "iconKey": "house", "audioPath": "audio/words/ow/house.mp3" },
+      { "word": "mouse", "ipa": "/maʊs/", "meaningVi": "con chuột", "iconKey": "mouse", "audioPath": "audio/words/ow/mouse.mp3" },
+      { "word": "cloud", "ipa": "/klaʊd/", "meaningVi": "đám mây", "iconKey": "cloud", "audioPath": "audio/words/ow/cloud.mp3" },
+      { "word": "cow", "ipa": "/kaʊ/", "meaningVi": "con bò", "iconKey": "cow", "audioPath": "audio/words/ow/cow.mp3" }
+    ]
+  },
+  {
+    "id": "oh",
+    "symbol": "/oʊ/",
+    "category": "diphthong",
+    "keyword": "boat",
+    "overviewVi": "Âm /oʊ/ bắt đầu ở vị trí sau-trung rồi trượt lên cao hơn và tròn hơn. Hãy nghe trong “boat”, “phone”.",
+    "articulation": {
+      "lips": "Môi tròn nhẹ và tròn hơn về cuối âm.",
+      "tongue": "Lưỡi đi từ sau-trung lên cao hơn ở phía sau.",
+      "jaw": "Hàm mở vừa rồi khép dần.",
+      "airflow": "Hơi đi ra liên tục.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc thành âm đơn /o/. Cần có một độ trượt nhẹ ở cuối âm.",
+    "phonemeAudio": {
+      "text": "oh",
+      "prompt": "Produce only the American English diphthong /oʊ/ as an isolated cue. Keep the glide clear and rounded. Do not say any word or letter name.",
+      "path": "audio/phonemes/oh.mp3"
+    },
+    "examples": [
+      { "word": "boat", "ipa": "/boʊt/", "meaningVi": "con thuyền", "iconKey": "boat", "audioPath": "audio/words/oh/boat.mp3" },
+      { "word": "phone", "ipa": "/foʊn/", "meaningVi": "điện thoại", "iconKey": "phone", "audioPath": "audio/words/oh/phone.mp3" },
+      { "word": "road", "ipa": "/roʊd/", "meaningVi": "con đường", "iconKey": "road", "audioPath": "audio/words/oh/road.mp3" },
+      { "word": "coat", "ipa": "/koʊt/", "meaningVi": "áo khoác", "iconKey": "coat", "audioPath": "audio/words/oh/coat.mp3" }
+    ]
+  },
+  {
+    "id": "p",
+    "symbol": "/p/",
+    "category": "consonant",
+    "keyword": "pen",
+    "overviewVi": "Âm /p/ là phụ âm bật hơi vô thanh. Hai môi khép lại rồi mở ra nhanh để bật hơi.",
+    "articulation": {
+      "lips": "Hai môi khép kín rồi mở bật ra.",
+      "tongue": "Lưỡi nghỉ tự nhiên, không giữ vai trò chính.",
+      "jaw": "Hàm mở nhẹ sau khi môi bật.",
+      "airflow": "Có luồng hơi bật ra rõ.",
+      "voicing": "Vô thanh, dây thanh không rung."
+    },
+    "commonMistakeVi": "Đừng đọc thành /b/. Hãy chú ý hơi bật mạnh hơn và không rung dây thanh.",
+    "phonemeAudio": {
+      "text": "puh",
+      "prompt": "Produce only the American English consonant sound /p/ as a short isolated teaching cue. Avoid saying the letter name. Do not add a full word.",
+      "path": "audio/phonemes/p.mp3"
+    },
+    "examples": [
+      { "word": "pen", "ipa": "/pɛn/", "meaningVi": "cây bút", "iconKey": "pen", "audioPath": "audio/words/p/pen.mp3" },
+      { "word": "pig", "ipa": "/pɪɡ/", "meaningVi": "con lợn", "iconKey": "pig", "audioPath": "audio/words/p/pig.mp3" },
+      { "word": "pizza", "ipa": "/ˈpitsə/", "meaningVi": "bánh pizza", "iconKey": "pizza", "audioPath": "audio/words/p/pizza.mp3" },
+      { "word": "paper", "ipa": "/ˈpeɪpɚ/", "meaningVi": "giấy", "iconKey": "paper", "audioPath": "audio/words/p/paper.mp3" }
+    ]
+  },
+  {
+    "id": "b",
+    "symbol": "/b/",
+    "category": "consonant",
+    "keyword": "book",
+    "overviewVi": "Âm /b/ có cách đặt môi giống /p/ nhưng là âm hữu thanh. Khi bật môi ra, dây thanh rung.",
+    "articulation": {
+      "lips": "Hai môi khép rồi mở nhanh.",
+      "tongue": "Lưỡi nghỉ tự nhiên.",
+      "jaw": "Hàm mở nhẹ khi môi tách ra.",
+      "airflow": "Hơi bật ra ngắn hơn /p/.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu bật hơi quá mạnh, âm /b/ sẽ nghe như /p/. Hãy giữ dây thanh rung.",
+    "phonemeAudio": {
+      "text": "buh",
+      "prompt": "Produce only the American English consonant sound /b/ as a short isolated cue. Avoid saying the letter name. Do not add a full word.",
+      "path": "audio/phonemes/b.mp3"
+    },
+    "examples": [
+      { "word": "book", "ipa": "/bʊk/", "meaningVi": "quyển sách", "iconKey": "book", "audioPath": "audio/words/b/book.mp3" },
+      { "word": "ball", "ipa": "/bɔl/", "meaningVi": "quả bóng", "iconKey": "ball", "audioPath": "audio/words/b/ball.mp3" },
+      { "word": "bird", "ipa": "/bɝd/", "meaningVi": "con chim", "iconKey": "bird", "audioPath": "audio/words/b/bird.mp3" },
+      { "word": "bed", "ipa": "/bɛd/", "meaningVi": "cái giường", "iconKey": "bed", "audioPath": "audio/words/b/bed.mp3" }
+    ]
+  },
+  {
+    "id": "t",
+    "symbol": "/t/",
+    "category": "consonant",
+    "keyword": "tea",
+    "overviewVi": "Âm /t/ là phụ âm tắc vô thanh ở lợi. Đầu lưỡi chạm vùng ngay sau răng trên rồi bật ra nhanh.",
+    "articulation": {
+      "lips": "Môi thả lỏng.",
+      "tongue": "Đầu lưỡi chạm lợi trên rồi rời ra nhanh.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Có hơi bật nhẹ đến rõ tùy vị trí trong từ.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng đặt lưỡi quá xa ra răng như âm /t/ trong tiếng Việt. Hãy chạm ở vùng lợi.",
+    "phonemeAudio": {
+      "text": "tuh",
+      "prompt": "Produce only the American English consonant sound /t/ as a short isolated cue. Avoid saying the letter name. Do not add a full word.",
+      "path": "audio/phonemes/t.mp3"
+    },
+    "examples": [
+      { "word": "tea", "ipa": "/ti/", "meaningVi": "trà", "iconKey": "tea", "audioPath": "audio/words/t/tea.mp3" },
+      { "word": "tiger", "ipa": "/ˈtaɪɡɚ/", "meaningVi": "con hổ", "iconKey": "tiger", "audioPath": "audio/words/t/tiger.mp3" },
+      { "word": "tomato", "ipa": "/təˈmeɪtoʊ/", "meaningVi": "cà chua", "iconKey": "tomato", "audioPath": "audio/words/t/tomato.mp3" },
+      { "word": "train", "ipa": "/treɪn/", "meaningVi": "tàu hỏa", "iconKey": "train", "audioPath": "audio/words/t/train.mp3" }
+    ]
+  },
+  {
+    "id": "d",
+    "symbol": "/d/",
+    "category": "consonant",
+    "keyword": "dog",
+    "overviewVi": "Âm /d/ đặt lưỡi ở vị trí giống /t/ nhưng là âm hữu thanh. Dây thanh rung khi âm bật ra.",
+    "articulation": {
+      "lips": "Môi thả lỏng.",
+      "tongue": "Đầu lưỡi chạm lợi trên rồi nhả ra.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi ngắn, không bật mạnh như /t/.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu không rung dây thanh, âm sẽ nghe như /t/. Hãy cảm nhận rung ở cổ họng.",
+    "phonemeAudio": {
+      "text": "duh",
+      "prompt": "Produce only the American English consonant sound /d/ as a short isolated cue. Avoid saying the letter name. Do not add a full word.",
+      "path": "audio/phonemes/d.mp3"
+    },
+    "examples": [
+      { "word": "dog", "ipa": "/dɔɡ/", "meaningVi": "con chó", "iconKey": "dog", "audioPath": "audio/words/d/dog.mp3" },
+      { "word": "door", "ipa": "/dɔr/", "meaningVi": "cánh cửa", "iconKey": "door", "audioPath": "audio/words/d/door.mp3" },
+      { "word": "duck", "ipa": "/dʌk/", "meaningVi": "con vịt", "iconKey": "duck", "audioPath": "audio/words/d/duck.mp3" },
+      { "word": "drum", "ipa": "/drʌm/", "meaningVi": "cái trống", "iconKey": "drum", "audioPath": "audio/words/d/drum.mp3" }
+    ]
+  },
+  {
+    "id": "k",
+    "symbol": "/k/",
+    "category": "consonant",
+    "keyword": "cat",
+    "overviewVi": "Âm /k/ là phụ âm tắc vô thanh ở ngạc mềm. Phần sau của lưỡi nâng lên chạm ngạc mềm rồi bật hơi.",
+    "articulation": {
+      "lips": "Môi thường mở tự nhiên theo nguyên âm sau đó.",
+      "tongue": "Phần sau lưỡi chạm ngạc mềm rồi nhả ra.",
+      "jaw": "Hàm mở nhẹ đến vừa.",
+      "airflow": "Có hơi bật ra rõ.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng đặt điểm chạm quá trước như /t/. Âm /k/ phải được tạo ở sâu phía sau miệng.",
+    "phonemeAudio": {
+      "text": "kuh",
+      "prompt": "Produce only the American English consonant sound /k/ as a short isolated cue. Avoid saying the letter name. Do not add a full word.",
+      "path": "audio/phonemes/k.mp3"
+    },
+    "examples": [
+      { "word": "cat", "ipa": "/kæt/", "meaningVi": "con mèo", "iconKey": "cat", "audioPath": "audio/words/k/cat.mp3" },
+      { "word": "cake", "ipa": "/keɪk/", "meaningVi": "bánh ngọt", "iconKey": "cake", "audioPath": "audio/words/k/cake.mp3" },
+      { "word": "key", "ipa": "/ki/", "meaningVi": "chìa khóa", "iconKey": "key", "audioPath": "audio/words/k/key.mp3" },
+      { "word": "kite", "ipa": "/kaɪt/", "meaningVi": "con diều", "iconKey": "kite", "audioPath": "audio/words/k/kite.mp3" }
+    ]
+  },
+  {
+    "id": "g",
+    "symbol": "/ɡ/",
+    "category": "consonant",
+    "keyword": "goat",
+    "overviewVi": "Âm /ɡ/ có vị trí giống /k/ nhưng là âm hữu thanh. Đây là âm đầu trong “goat”, “gift”.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên.",
+      "tongue": "Phần sau lưỡi chạm ngạc mềm rồi rời ra.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi ngắn hơn /k/.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu không rung dây thanh, /ɡ/ sẽ nghe như /k/. Hãy chú ý cảm giác rung ở cổ.",
+    "phonemeAudio": {
+      "text": "guh",
+      "prompt": "Produce only the American English consonant sound /ɡ/ as a short isolated cue. Avoid saying the letter name. Do not add a full word.",
+      "path": "audio/phonemes/g.mp3"
+    },
+    "examples": [
+      { "word": "goat", "ipa": "/ɡoʊt/", "meaningVi": "con dê", "iconKey": "goat", "audioPath": "audio/words/g/goat.mp3" },
+      { "word": "gift", "ipa": "/ɡɪft/", "meaningVi": "món quà", "iconKey": "gift", "audioPath": "audio/words/g/gift.mp3" },
+      { "word": "game", "ipa": "/ɡeɪm/", "meaningVi": "trò chơi", "iconKey": "game", "audioPath": "audio/words/g/game.mp3" },
+      { "word": "glass", "ipa": "/ɡlæs/", "meaningVi": "cái ly", "iconKey": "glass", "audioPath": "audio/words/g/glass.mp3" }
+    ]
+  },
+  {
+    "id": "f",
+    "symbol": "/f/",
+    "category": "consonant",
+    "keyword": "fish",
+    "overviewVi": "Âm /f/ là phụ âm xát vô thanh. Răng trên chạm nhẹ môi dưới để tạo luồng hơi ma sát.",
+    "articulation": {
+      "lips": "Môi dưới chạm nhẹ răng trên.",
+      "tongue": "Lưỡi nghỉ tự nhiên.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi đi ra liên tục và có tiếng xát.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng đọc bằng hai môi như /ph/ tiếng Việt. Chỉ dùng răng trên chạm môi dưới.",
+    "phonemeAudio": {
+      "text": "fff",
+      "prompt": "Produce only the American English consonant sound /f/ as an isolated teaching cue. Keep the friction clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/f.mp3"
+    },
+    "examples": [
+      { "word": "fish", "ipa": "/fɪʃ/", "meaningVi": "con cá", "iconKey": "fish", "audioPath": "audio/words/f/fish.mp3" },
+      { "word": "fan", "ipa": "/fæn/", "meaningVi": "quạt", "iconKey": "fan", "audioPath": "audio/words/f/fan.mp3" },
+      { "word": "leaf", "ipa": "/lif/", "meaningVi": "lá cây", "iconKey": "leaf", "audioPath": "audio/words/f/leaf.mp3" },
+      { "word": "phone", "ipa": "/foʊn/", "meaningVi": "điện thoại", "iconKey": "phone", "audioPath": "audio/words/f/phone.mp3" }
+    ]
+  },
+  {
+    "id": "v",
+    "symbol": "/v/",
+    "category": "consonant",
+    "keyword": "van",
+    "overviewVi": "Âm /v/ có vị trí giống /f/ nhưng dây thanh rung. Bạn sẽ nghe âm này trong “van”, “violin”.",
+    "articulation": {
+      "lips": "Môi dưới chạm nhẹ răng trên.",
+      "tongue": "Lưỡi nghỉ tự nhiên.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Luồng hơi xát liên tục.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nhiều người đọc /v/ thành /w/ hoặc /f/. Hãy giữ răng trên chạm môi dưới và làm dây thanh rung.",
+    "phonemeAudio": {
+      "text": "vvv",
+      "prompt": "Produce only the American English consonant sound /v/ as an isolated teaching cue. Keep the friction voiced. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/v.mp3"
+    },
+    "examples": [
+      { "word": "van", "ipa": "/væn/", "meaningVi": "xe van", "iconKey": "van", "audioPath": "audio/words/v/van.mp3" },
+      { "word": "vase", "ipa": "/veɪs/", "meaningVi": "lọ hoa", "iconKey": "vase", "audioPath": "audio/words/v/vase.mp3" },
+      { "word": "violin", "ipa": "/ˌvaɪəˈlɪn/", "meaningVi": "đàn violin", "iconKey": "violin", "audioPath": "audio/words/v/violin.mp3" },
+      { "word": "river", "ipa": "/ˈrɪvɚ/", "meaningVi": "con sông", "iconKey": "river", "audioPath": "audio/words/v/river.mp3" }
+    ]
+  },
+  {
+    "id": "th",
+    "symbol": "/θ/",
+    "category": "consonant",
+    "keyword": "thumb",
+    "overviewVi": "Âm /θ/ là phụ âm xát vô thanh. Đầu lưỡi thò rất nhẹ ra giữa hai hàm răng hoặc chạm mép răng trên.",
+    "articulation": {
+      "lips": "Môi mở nhẹ.",
+      "tongue": "Đầu lưỡi chạm rất nhẹ mép răng trên hoặc đặt giữa hai răng.",
+      "jaw": "Hàm mở nhỏ.",
+      "airflow": "Hơi đi ra liên tục qua khe hẹp.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng thay bằng /t/ hay /s/. Hãy để đầu lưỡi ra rất nhẹ để tạo ma sát đúng.",
+    "phonemeAudio": {
+      "text": "thhh",
+      "prompt": "Produce only the American English consonant sound /θ/ as an isolated teaching cue. Keep the voiceless friction clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/th.mp3"
+    },
+    "examples": [
+      { "word": "thumb", "ipa": "/θʌm/", "meaningVi": "ngón cái", "iconKey": "thumb", "audioPath": "audio/words/th/thumb.mp3" },
+      { "word": "tooth", "ipa": "/tuθ/", "meaningVi": "răng", "iconKey": "tooth", "audioPath": "audio/words/th/tooth.mp3" },
+      { "word": "bath", "ipa": "/bæθ/", "meaningVi": "bồn tắm", "iconKey": "bath", "audioPath": "audio/words/th/bath.mp3" },
+      { "word": "thermometer", "ipa": "/θɚˈmɑmɪtɚ/", "meaningVi": "nhiệt kế", "iconKey": "thermometer", "audioPath": "audio/words/th/thermometer.mp3" }
+    ]
+  },
+  {
+    "id": "dh",
+    "symbol": "/ð/",
+    "category": "consonant",
+    "keyword": "mother",
+    "overviewVi": "Âm /ð/ có vị trí giống /θ/ nhưng là âm hữu thanh. Đây là âm trong “mother”, “feather”.",
+    "articulation": {
+      "lips": "Môi mở nhẹ.",
+      "tongue": "Đầu lưỡi đặt nhẹ ở mép răng trên hoặc giữa hai răng.",
+      "jaw": "Hàm mở nhỏ.",
+      "airflow": "Hơi xát nhẹ liên tục.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng thay /ð/ bằng /d/ hay /z/. Hãy giữ đầu lưỡi đúng vị trí và bật rung dây thanh.",
+    "phonemeAudio": {
+      "text": "thhh",
+      "prompt": "Produce only the American English consonant sound /ð/ as an isolated teaching cue. Keep the voiced friction clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/dh.mp3"
+    },
+    "examples": [
+      { "word": "mother", "ipa": "/ˈmʌðɚ/", "meaningVi": "mẹ", "iconKey": "mother", "audioPath": "audio/words/dh/mother.mp3" },
+      { "word": "brother", "ipa": "/ˈbrʌðɚ/", "meaningVi": "anh/em trai", "iconKey": "brother", "audioPath": "audio/words/dh/brother.mp3" },
+      { "word": "feather", "ipa": "/ˈfɛðɚ/", "meaningVi": "lông vũ", "iconKey": "feather", "audioPath": "audio/words/dh/feather.mp3" },
+      { "word": "weather", "ipa": "/ˈwɛðɚ/", "meaningVi": "thời tiết", "iconKey": "weather", "audioPath": "audio/words/dh/weather.mp3" }
+    ]
+  },
+  {
+    "id": "s",
+    "symbol": "/s/",
+    "category": "consonant",
+    "keyword": "sun",
+    "overviewVi": "Âm /s/ là phụ âm xát vô thanh rất phổ biến. Đầu lưỡi ở gần lợi trên, tạo khe hẹp cho hơi đi qua.",
+    "articulation": {
+      "lips": "Môi hơi mở, không tròn.",
+      "tongue": "Đầu lưỡi gần lợi trên nhưng không chạm hẳn.",
+      "jaw": "Hàm mở nhỏ.",
+      "airflow": "Hơi xát mạnh và đều.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng làm lưỡi quá thấp khiến âm mờ. Hãy tạo tiếng xì rõ và sắc.",
+    "phonemeAudio": {
+      "text": "sss",
+      "prompt": "Produce only the American English consonant sound /s/ as an isolated teaching cue. Keep the friction sharp. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/s.mp3"
+    },
+    "examples": [
+      { "word": "sun", "ipa": "/sʌn/", "meaningVi": "mặt trời", "iconKey": "sun", "audioPath": "audio/words/s/sun.mp3" },
+      { "word": "sock", "ipa": "/sɑk/", "meaningVi": "chiếc tất", "iconKey": "sock", "audioPath": "audio/words/s/sock.mp3" },
+      { "word": "soup", "ipa": "/sup/", "meaningVi": "súp", "iconKey": "soup", "audioPath": "audio/words/s/soup.mp3" },
+      { "word": "bus", "ipa": "/bʌs/", "meaningVi": "xe buýt", "iconKey": "bus", "audioPath": "audio/words/s/bus.mp3" }
+    ]
+  },
+  {
+    "id": "z",
+    "symbol": "/z/",
+    "category": "consonant",
+    "keyword": "zipper",
+    "overviewVi": "Âm /z/ có vị trí giống /s/ nhưng là âm hữu thanh. Hãy cảm nhận rung trong cổ họng khi phát âm.",
+    "articulation": {
+      "lips": "Môi hơi mở.",
+      "tongue": "Đầu lưỡi gần lợi trên, tạo khe xát.",
+      "jaw": "Hàm mở nhỏ.",
+      "airflow": "Hơi xát đều.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nhiều người đọc /z/ thành /s/. Hãy đặt tay vào cổ để kiểm tra độ rung dây thanh.",
+    "phonemeAudio": {
+      "text": "zzz",
+      "prompt": "Produce only the American English consonant sound /z/ as an isolated teaching cue. Keep the friction voiced. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/z.mp3"
+    },
+    "examples": [
+      { "word": "zipper", "ipa": "/ˈzɪpɚ/", "meaningVi": "khóa kéo", "iconKey": "zipper", "audioPath": "audio/words/z/zipper.mp3" },
+      { "word": "zoo", "ipa": "/zu/", "meaningVi": "sở thú", "iconKey": "zoo", "audioPath": "audio/words/z/zoo.mp3" },
+      { "word": "nose", "ipa": "/noʊz/", "meaningVi": "cái mũi", "iconKey": "nose", "audioPath": "audio/words/z/nose.mp3" },
+      { "word": "rose", "ipa": "/roʊz/", "meaningVi": "hoa hồng", "iconKey": "rose", "audioPath": "audio/words/z/rose.mp3" }
+    ]
+  },
+  {
+    "id": "sh",
+    "symbol": "/ʃ/",
+    "category": "consonant",
+    "keyword": "shoe",
+    "overviewVi": "Âm /ʃ/ là phụ âm xát vô thanh, môi hơi tròn và lưỡi lùi hơn /s/. Đây là âm trong “shoe”, “sheep”.",
+    "articulation": {
+      "lips": "Môi hơi tròn và nhô nhẹ.",
+      "tongue": "Mặt trước lưỡi nâng lên gần vùng sau lợi.",
+      "jaw": "Hàm mở nhỏ đến vừa.",
+      "airflow": "Hơi xát liên tục, âm mềm hơn /s/.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng đọc quá sắc như /s/. Âm /ʃ/ nghe dày hơn và môi cần tròn nhẹ.",
+    "phonemeAudio": {
+      "text": "shhh",
+      "prompt": "Produce only the American English consonant sound /ʃ/ as an isolated teaching cue. Keep the friction smooth. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/sh.mp3"
+    },
+    "examples": [
+      { "word": "shoe", "ipa": "/ʃu/", "meaningVi": "giày", "iconKey": "shoe", "audioPath": "audio/words/sh/shoe.mp3" },
+      { "word": "sheep", "ipa": "/ʃip/", "meaningVi": "con cừu", "iconKey": "sheep", "audioPath": "audio/words/sh/sheep.mp3" },
+      { "word": "ship", "ipa": "/ʃɪp/", "meaningVi": "con tàu", "iconKey": "ship", "audioPath": "audio/words/sh/ship.mp3" },
+      { "word": "brush", "ipa": "/brʌʃ/", "meaningVi": "cái bàn chải", "iconKey": "brush", "audioPath": "audio/words/sh/brush.mp3" }
+    ]
+  },
+  {
+    "id": "zh",
+    "symbol": "/ʒ/",
+    "category": "consonant",
+    "keyword": "television",
+    "overviewVi": "Âm /ʒ/ là phụ âm xát hữu thanh khá hiếm. Hãy nghe nó như âm giữa trong “television” hoặc cuối trong “beige”.",
+    "articulation": {
+      "lips": "Môi hơi tròn nhẹ.",
+      "tongue": "Lưỡi ở vị trí gần giống /ʃ/ nhưng có rung dây thanh.",
+      "jaw": "Hàm mở nhỏ đến vừa.",
+      "airflow": "Hơi xát liên tục.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nhiều người thay bằng /ʃ/ hoặc /z/. Hãy giữ vị trí của /ʃ/ nhưng thêm rung dây thanh.",
+    "phonemeAudio": {
+      "text": "zhhh",
+      "prompt": "Produce only the American English consonant sound /ʒ/ as an isolated teaching cue. Keep the voiced friction smooth. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/zh.mp3"
+    },
+    "examples": [
+      { "word": "television", "ipa": "/ˈtɛləˌvɪʒən/", "meaningVi": "ti vi", "iconKey": "television", "audioPath": "audio/words/zh/television.mp3" },
+      { "word": "treasure", "ipa": "/ˈtrɛʒɚ/", "meaningVi": "kho báu", "iconKey": "treasure", "audioPath": "audio/words/zh/treasure.mp3" },
+      { "word": "garage", "ipa": "/ɡəˈrɑʒ/", "meaningVi": "ga ra", "iconKey": "garage", "audioPath": "audio/words/zh/garage.mp3" },
+      { "word": "beige", "ipa": "/beɪʒ/", "meaningVi": "màu be", "iconKey": "beige", "audioPath": "audio/words/zh/beige.mp3" }
+    ]
+  },
+  {
+    "id": "h",
+    "symbol": "/h/",
+    "category": "consonant",
+    "keyword": "hat",
+    "overviewVi": "Âm /h/ là phụ âm vô thanh được tạo chủ yếu bằng luồng hơi ở cổ họng. Đây là âm rất nhẹ trong “hat”, “house”.",
+    "articulation": {
+      "lips": "Môi mở theo nguyên âm đi sau.",
+      "tongue": "Lưỡi không tạo chỗ chặn chính.",
+      "jaw": "Hàm mở tự nhiên.",
+      "airflow": "Hơi thoát ra nhẹ, rõ.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng bỏ mất /h/ ở đầu từ. Hãy cho hơi ra rõ trước nguyên âm.",
+    "phonemeAudio": {
+      "text": "hhh",
+      "prompt": "Produce only the American English consonant sound /h/ as an isolated teaching cue. Keep the breathy release clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/h.mp3"
+    },
+    "examples": [
+      { "word": "hat", "ipa": "/hæt/", "meaningVi": "cái mũ", "iconKey": "hat", "audioPath": "audio/words/h/hat.mp3" },
+      { "word": "house", "ipa": "/haʊs/", "meaningVi": "ngôi nhà", "iconKey": "house", "audioPath": "audio/words/h/house.mp3" },
+      { "word": "hand", "ipa": "/hænd/", "meaningVi": "bàn tay", "iconKey": "hand", "audioPath": "audio/words/h/hand.mp3" },
+      { "word": "horse", "ipa": "/hɔrs/", "meaningVi": "con ngựa", "iconKey": "horse", "audioPath": "audio/words/h/horse.mp3" }
+    ]
+  },
+  {
+    "id": "ch",
+    "symbol": "/tʃ/",
+    "category": "consonant",
+    "keyword": "cheese",
+    "overviewVi": "Âm /tʃ/ bắt đầu bằng một chỗ chặn ngắn rồi chuyển sang ma sát. Đây là âm trong “cheese”, “chair”.",
+    "articulation": {
+      "lips": "Môi hơi tròn nhẹ tùy từ.",
+      "tongue": "Lưỡi chạm gần vùng sau lợi rồi nhả ra thành ma sát.",
+      "jaw": "Hàm mở vừa.",
+      "airflow": "Bắt đầu bị chặn rồi thoát ra xát.",
+      "voicing": "Vô thanh."
+    },
+    "commonMistakeVi": "Đừng đọc tách rời /t/ rồi /ʃ/. Hãy phát liền thành một cụm âm duy nhất.",
+    "phonemeAudio": {
+      "text": "chh",
+      "prompt": "Produce only the American English consonant sound /tʃ/ as an isolated teaching cue. Keep the affricate release clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/ch.mp3"
+    },
+    "examples": [
+      { "word": "cheese", "ipa": "/tʃiz/", "meaningVi": "phô mai", "iconKey": "cheese", "audioPath": "audio/words/ch/cheese.mp3" },
+      { "word": "chair", "ipa": "/tʃɛr/", "meaningVi": "cái ghế", "iconKey": "chair", "audioPath": "audio/words/ch/chair.mp3" },
+      { "word": "chicken", "ipa": "/ˈtʃɪkən/", "meaningVi": "gà", "iconKey": "chicken", "audioPath": "audio/words/ch/chicken.mp3" },
+      { "word": "watch", "ipa": "/wɑtʃ/", "meaningVi": "đồng hồ đeo tay", "iconKey": "watch", "audioPath": "audio/words/ch/watch.mp3" }
+    ]
+  },
+  {
+    "id": "jh",
+    "symbol": "/dʒ/",
+    "category": "consonant",
+    "keyword": "jam",
+    "overviewVi": "Âm /dʒ/ có vị trí giống /tʃ/ nhưng là âm hữu thanh. Nó xuất hiện trong “jam”, “juice”, “jacket”.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên hoặc hơi tròn tùy nguyên âm.",
+      "tongue": "Lưỡi chặn ngắn ở vùng sau lợi rồi nhả ra thành ma sát.",
+      "jaw": "Hàm mở vừa.",
+      "airflow": "Có pha chặn rồi xát.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Nếu bỏ rung dây thanh, âm này sẽ nghe giống /tʃ/. Hãy phát âm mềm và có rung.",
+    "phonemeAudio": {
+      "text": "jhh",
+      "prompt": "Produce only the American English consonant sound /dʒ/ as an isolated teaching cue. Keep the voiced affricate clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/jh.mp3"
+    },
+    "examples": [
+      { "word": "jam", "ipa": "/dʒæm/", "meaningVi": "mứt", "iconKey": "jam", "audioPath": "audio/words/jh/jam.mp3" },
+      { "word": "juice", "ipa": "/dʒus/", "meaningVi": "nước ép", "iconKey": "juice", "audioPath": "audio/words/jh/juice.mp3" },
+      { "word": "jacket", "ipa": "/ˈdʒækɪt/", "meaningVi": "áo khoác", "iconKey": "jacket", "audioPath": "audio/words/jh/jacket.mp3" },
+      { "word": "giraffe", "ipa": "/dʒəˈræf/", "meaningVi": "hươu cao cổ", "iconKey": "giraffe", "audioPath": "audio/words/jh/giraffe.mp3" }
+    ]
+  },
+  {
+    "id": "m",
+    "symbol": "/m/",
+    "category": "consonant",
+    "keyword": "moon",
+    "overviewVi": "Âm /m/ là phụ âm mũi hữu thanh. Hai môi khép lại, nhưng hơi đi qua mũi.",
+    "articulation": {
+      "lips": "Hai môi khép kín.",
+      "tongue": "Lưỡi nghỉ tự nhiên.",
+      "jaw": "Hàm hầu như giữ yên.",
+      "airflow": "Hơi đi qua mũi.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng để hơi thoát ra miệng. Hãy cảm nhận rung ở môi và hơi ở mũi.",
+    "phonemeAudio": {
+      "text": "mmm",
+      "prompt": "Produce only the American English consonant sound /m/ as an isolated teaching cue. Keep the nasal humming clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/m.mp3"
+    },
+    "examples": [
+      { "word": "moon", "ipa": "/mun/", "meaningVi": "mặt trăng", "iconKey": "moon", "audioPath": "audio/words/m/moon.mp3" },
+      { "word": "mouse", "ipa": "/maʊs/", "meaningVi": "con chuột", "iconKey": "mouse", "audioPath": "audio/words/m/mouse.mp3" },
+      { "word": "milk", "ipa": "/mɪlk/", "meaningVi": "sữa", "iconKey": "milk", "audioPath": "audio/words/m/milk.mp3" },
+      { "word": "map", "ipa": "/mæp/", "meaningVi": "bản đồ", "iconKey": "map", "audioPath": "audio/words/m/map.mp3" }
+    ]
+  },
+  {
+    "id": "n",
+    "symbol": "/n/",
+    "category": "consonant",
+    "keyword": "nose",
+    "overviewVi": "Âm /n/ là phụ âm mũi hữu thanh ở lợi. Đầu lưỡi chạm lợi trên, hơi đi qua mũi.",
+    "articulation": {
+      "lips": "Môi mở nhẹ.",
+      "tongue": "Đầu lưỡi chạm lợi trên.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi đi qua mũi.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đặt lưỡi quá sâu hay quá trước. Vị trí tốt nhất là ngay vùng lợi trên.",
+    "phonemeAudio": {
+      "text": "nnn",
+      "prompt": "Produce only the American English consonant sound /n/ as an isolated teaching cue. Keep the nasal resonance clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/n.mp3"
+    },
+    "examples": [
+      { "word": "nose", "ipa": "/noʊz/", "meaningVi": "cái mũi", "iconKey": "nose", "audioPath": "audio/words/n/nose.mp3" },
+      { "word": "nest", "ipa": "/nɛst/", "meaningVi": "cái tổ", "iconKey": "nest", "audioPath": "audio/words/n/nest.mp3" },
+      { "word": "nurse", "ipa": "/nɝs/", "meaningVi": "y tá", "iconKey": "nurse", "audioPath": "audio/words/n/nurse.mp3" },
+      { "word": "needle", "ipa": "/ˈnidəl/", "meaningVi": "cây kim", "iconKey": "needle", "audioPath": "audio/words/n/needle.mp3" }
+    ]
+  },
+  {
+    "id": "ng",
+    "symbol": "/ŋ/",
+    "category": "consonant",
+    "keyword": "ring",
+    "overviewVi": "Âm /ŋ/ là phụ âm mũi ở ngạc mềm. Phần sau lưỡi nâng lên giống /k, ɡ/ nhưng hơi đi qua mũi.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên.",
+      "tongue": "Phần sau lưỡi chạm ngạc mềm.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi đi qua mũi.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng thêm /g/ ở cuối nếu từ chỉ có /ŋ/. Hãy dừng ở âm mũi phía sau.",
+    "phonemeAudio": {
+      "text": "ng",
+      "prompt": "Produce only the American English consonant sound /ŋ/ as an isolated teaching cue. Keep the back nasal sound clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/ng.mp3"
+    },
+    "examples": [
+      { "word": "ring", "ipa": "/rɪŋ/", "meaningVi": "chiếc nhẫn", "iconKey": "ring", "audioPath": "audio/words/ng/ring.mp3" },
+      { "word": "king", "ipa": "/kɪŋ/", "meaningVi": "vua", "iconKey": "king", "audioPath": "audio/words/ng/king.mp3" },
+      { "word": "song", "ipa": "/sɔŋ/", "meaningVi": "bài hát", "iconKey": "song", "audioPath": "audio/words/ng/song.mp3" },
+      { "word": "wing", "ipa": "/wɪŋ/", "meaningVi": "cánh", "iconKey": "wing", "audioPath": "audio/words/ng/wing.mp3" }
+    ]
+  },
+  {
+    "id": "l",
+    "symbol": "/l/",
+    "category": "consonant",
+    "keyword": "leaf",
+    "overviewVi": "Âm /l/ là phụ âm bên hữu thanh. Đầu lưỡi chạm lợi trên, hơi thoát qua hai bên lưỡi.",
+    "articulation": {
+      "lips": "Môi mở tự nhiên.",
+      "tongue": "Đầu lưỡi chạm lợi trên, hai bên lưỡi hạ xuống.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi thoát qua hai bên lưỡi.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng để lưỡi quá phẳng. Hãy nâng đầu lưỡi rõ vào lợi trên.",
+    "phonemeAudio": {
+      "text": "lll",
+      "prompt": "Produce only the American English consonant sound /l/ as an isolated teaching cue. Keep the lateral sound clear. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/l.mp3"
+    },
+    "examples": [
+      { "word": "leaf", "ipa": "/lif/", "meaningVi": "lá cây", "iconKey": "leaf", "audioPath": "audio/words/l/leaf.mp3" },
+      { "word": "lamp", "ipa": "/læmp/", "meaningVi": "đèn bàn", "iconKey": "lamp", "audioPath": "audio/words/l/lamp.mp3" },
+      { "word": "lion", "ipa": "/ˈlaɪən/", "meaningVi": "sư tử", "iconKey": "lion", "audioPath": "audio/words/l/lion.mp3" },
+      { "word": "lemon", "ipa": "/ˈlɛmən/", "meaningVi": "quả chanh", "iconKey": "lemon", "audioPath": "audio/words/l/lemon.mp3" }
+    ]
+  },
+  {
+    "id": "r",
+    "symbol": "/r/",
+    "category": "consonant",
+    "keyword": "rain",
+    "overviewVi": "Âm /r/ trong giọng Mỹ là âm rất đặc trưng. Lưỡi cong nhẹ hoặc co vào trong nhưng không chạm lên vòm miệng.",
+    "articulation": {
+      "lips": "Môi có thể hơi tròn nhẹ.",
+      "tongue": "Đầu lưỡi cong nhẹ lên hoặc co vào trong, không chạm vòm.",
+      "jaw": "Hàm mở nhẹ.",
+      "airflow": "Hơi đi ra liên tục.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng rung đầu lưỡi như /r/ tiếng Việt. Âm /r/ Mỹ không có rung đầu lưỡi.",
+    "phonemeAudio": {
+      "text": "rrr",
+      "prompt": "Produce only the American English consonant sound /r/ as an isolated teaching cue. Keep it as a General American r sound, not a trill. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/r.mp3"
+    },
+    "examples": [
+      { "word": "rain", "ipa": "/reɪn/", "meaningVi": "mưa", "iconKey": "rain", "audioPath": "audio/words/r/rain.mp3" },
+      { "word": "rabbit", "ipa": "/ˈræbɪt/", "meaningVi": "con thỏ", "iconKey": "rabbit", "audioPath": "audio/words/r/rabbit.mp3" },
+      { "word": "road", "ipa": "/roʊd/", "meaningVi": "con đường", "iconKey": "road", "audioPath": "audio/words/r/road.mp3" },
+      { "word": "robot", "ipa": "/ˈroʊbɑt/", "meaningVi": "rô-bốt", "iconKey": "robot", "audioPath": "audio/words/r/robot.mp3" }
+    ]
+  },
+  {
+    "id": "y",
+    "symbol": "/j/",
+    "category": "consonant",
+    "keyword": "yellow",
+    "overviewVi": "Âm /j/ là âm lướt hữu thanh, rất giống âm đầu của “yellow” trong tiếng Anh Mỹ. Lưỡi nâng cao ở phía trước rồi trượt nhanh sang nguyên âm sau.",
+    "articulation": {
+      "lips": "Môi mở theo nguyên âm theo sau.",
+      "tongue": "Thân lưỡi nâng cao về phía trước rồi trượt nhanh.",
+      "jaw": "Hàm mở ít.",
+      "airflow": "Hơi trôi liên tục, không có ma sát mạnh.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc thành nguyên âm /i/ đầy đủ. Đây là âm lướt rất nhanh trước nguyên âm chính.",
+    "phonemeAudio": {
+      "text": "yyy",
+      "prompt": "Produce only the American English consonant sound /j/ as a short isolated teaching cue. Keep it as a glide, not a full vowel. Do not say the letter name or a full word.",
+      "path": "audio/phonemes/y.mp3"
+    },
+    "examples": [
+      { "word": "yellow", "ipa": "/ˈjɛloʊ/", "meaningVi": "màu vàng", "iconKey": "yellow", "audioPath": "audio/words/y/yellow.mp3" },
+      { "word": "yogurt", "ipa": "/ˈjoʊɡɚt/", "meaningVi": "sữa chua", "iconKey": "yogurt", "audioPath": "audio/words/y/yogurt.mp3" },
+      { "word": "yo-yo", "ipa": "/ˈjoʊ joʊ/", "meaningVi": "đồ chơi yo-yo", "iconKey": "yoyo", "audioPath": "audio/words/y/yo-yo.mp3" },
+      { "word": "yard", "ipa": "/jɑrd/", "meaningVi": "sân", "iconKey": "yard", "audioPath": "audio/words/y/yard.mp3" }
+    ]
+  },
+  {
+    "id": "w",
+    "symbol": "/w/",
+    "category": "consonant",
+    "keyword": "water",
+    "overviewVi": "Âm /w/ là âm lướt hữu thanh với môi tròn rõ. Môi tròn rồi mở nhanh sang nguyên âm tiếp theo.",
+    "articulation": {
+      "lips": "Môi tròn rõ lúc bắt đầu rồi mở ra nhanh.",
+      "tongue": "Phần sau lưỡi nâng lên nhẹ.",
+      "jaw": "Hàm mở ít lúc đầu, rồi mở theo nguyên âm sau.",
+      "airflow": "Hơi đi ra trơn tru, không xát.",
+      "voicing": "Hữu thanh."
+    },
+    "commonMistakeVi": "Đừng đọc thành /v/. Âm /w/ dùng môi tròn, không để răng trên chạm môi dưới.",
+    "phonemeAudio": {
+      "text": "www",
+      "prompt": "Produce only the American English consonant sound /w/ as a short isolated teaching cue. Keep it as a rounded glide, not the letter name. Do not add a full word.",
+      "path": "audio/phonemes/w.mp3"
+    },
+    "examples": [
+      { "word": "water", "ipa": "/ˈwɔtɚ/", "meaningVi": "nước", "iconKey": "water", "audioPath": "audio/words/w/water.mp3" },
+      { "word": "window", "ipa": "/ˈwɪndoʊ/", "meaningVi": "cửa sổ", "iconKey": "window", "audioPath": "audio/words/w/window.mp3" },
+      { "word": "watch", "ipa": "/wɑtʃ/", "meaningVi": "đồng hồ đeo tay", "iconKey": "watch", "audioPath": "audio/words/w/watch.mp3" },
+      { "word": "whale", "ipa": "/weɪl/", "meaningVi": "cá voi", "iconKey": "whale", "audioPath": "audio/words/w/whale.mp3" }
+    ]
+  }
+]

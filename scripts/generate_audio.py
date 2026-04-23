@@ -84,6 +84,7 @@ def build_tasks(
     *,
     entries: list[dict],
     ids: set[str] | None,
+    symbols: set[str] | None,
     include_phonemes: bool,
     include_words: bool,
 ) -> list[AudioTask]:
@@ -91,12 +92,14 @@ def build_tasks(
 
     for entry in entries:
         entry_id = str(entry.get("id") or "").strip()
+        symbol = str(entry.get("symbol") or "").strip()
         if ids and entry_id not in ids:
+            continue
+        if symbols and symbol not in symbols:
             continue
 
         if include_phonemes:
             phoneme_audio = entry["phonemeAudio"]
-            symbol = str(entry["symbol"]).strip()
             tasks.append(
                 AudioTask(
                     label=f"phoneme:{entry_id}",
@@ -189,12 +192,21 @@ def synthesize_mp3_with_retry(
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
+    if hasattr(sys.stderr, "reconfigure"):
+        sys.stderr.reconfigure(encoding="utf-8", errors="backslashreplace")
+
     parser = argparse.ArgumentParser(
         description="Generate mp3 audio for the IPA teaching site using Gemini 3.1 TTS."
     )
     parser.add_argument(
         "--ids",
         help="Comma-separated phoneme ids to generate, for example: i,ih,sh",
+    )
+    parser.add_argument(
+        "--symbols",
+        help='Comma-separated IPA symbols to generate, for example: "/ɛ/,/ŋ/"',
     )
     parser.add_argument(
         "--limit",
@@ -223,10 +235,16 @@ def main() -> int:
     requested_ids = (
         {item.strip() for item in args.ids.split(",") if item.strip()} if args.ids else None
     )
+    requested_symbols = (
+        {item.strip() for item in args.symbols.split(",") if item.strip()}
+        if args.symbols
+        else None
+    )
 
     tasks = build_tasks(
         entries=entries,
         ids=requested_ids,
+        symbols=requested_symbols,
         include_phonemes=not args.words_only,
         include_words=not args.phonemes_only,
     )
